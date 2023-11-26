@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Loyalsoldier/geoip/lib"
+	"github.com/vuong2023/geoip/lib"
 	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
 	"github.com/v2fly/v2ray-core/v5/infra/conf/rule"
 	"google.golang.org/protobuf/proto"
