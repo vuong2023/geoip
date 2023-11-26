@@ -13,7 +13,7 @@
       "type": "cutter",
       "action": "remove",
       "args": {
-        "wantedList": ["cn"],
+        "wantedList": ["vn"],
         "onlyIPType": "ipv4"
       }
     },
@@ -21,8 +21,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "cn",
-        "uri": "https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt",
+        "name": "vn",
+        "uri": "https://raw.githubusercontent.com/bienthuy/vietnam-ip-ranges/master/vietnam-ip-range.txt",
         "onlyIPType": "ipv4"
       }
     },
@@ -30,8 +30,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "cn",
-        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt",
+        "name": "vn",
+        "uri": "https://raw.githubusercontent.com/vuong2023/vn-v2ray-rules/ip2location/ip2location-vn.txt",
         "onlyIPType": "ipv4"
       }
     },
@@ -39,8 +39,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "cn",
-        "uri": "https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt",
+        "name": "vn",
+        "uri": "https://raw.githubusercontent.com/vuong2023/vn-v2ray-rules/ip2location/ip2location-vn6.txt",
         "onlyIPType": "ipv6"
       }
     },
@@ -92,8 +92,8 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
-        "outputName": "geoip-only-cn-private.dat",
-        "wantedList": ["cn", "private"]
+        "outputName": "geoip-only-vn-private.dat",
+        "wantedList": ["vn", "private"]
       }
     },
     {
@@ -118,7 +118,7 @@
       "action": "output",
       "args": {
         "oneFilePerList": true,
-        "wantedList": ["cn", "private"]
+        "wantedList": ["vn", "private"]
       }
     },
     {
@@ -144,8 +144,8 @@
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
-        "outputName": "Country-only-cn-private.mmdb",
-        "wantedList": ["cn", "private"]
+        "outputName": "Country-only-vn-private.mmdb",
+        "wantedList": ["vn", "private"]
       }
     },
     {
