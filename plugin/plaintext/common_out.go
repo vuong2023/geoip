@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Loyalsoldier/geoip/lib"
+	"github.com/vuong2023/geoip/lib"
 )
 
 var (
