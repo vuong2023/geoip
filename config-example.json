@@ -92,8 +92,8 @@
       "type": "text",
       "action": "add",
       "args": {
-        "name": "cn",
-        "uri": "https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt",
+        "name": "vn",
+        "uri": "https://raw.githubusercontent.com/vuong2023/vn-v2ray-rules/ip2location/ip2location-vn.txt",
         "onlyIPType": "ipv4"
       }
     },
@@ -119,9 +119,9 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
-        "outputName": "geoip-only-cn-private.dat",
+        "outputName": "geoip-only-vn-private.dat",
         "outputDir": "./publish",
-        "wantedList": ["cn", "private"]
+        "wantedList": ["vn", "private"]
       }
     },
     {
@@ -143,15 +143,15 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "overwriteList": ["cn", "private"]
+        "overwriteList": ["vn", "private"]
       }
     },
     {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
-        "outputName": "country-only-cn-private.mmdb",
-        "wantedList": ["cn", "private"]
+        "outputName": "country-only-vn-private.mmdb",
+        "wantedList": ["vn", "private"]
       }
     },
     {
@@ -159,7 +159,7 @@
       "action": "output",
       "args": {
         "outputDir": "./publish",
-        "outputName": "country-only-cn-private.mmdb",
+        "outputName": "country-only-vn-private.mmdb",
         "wantedList": ["cn", "private"],
         "onlyIPType": "ipv4"
       }
@@ -177,7 +177,7 @@
       "type": "clashRuleSetClassical",
       "action": "output",
       "args": {
-        "wantedList": ["cn", "private", "test"],
+        "wantedList": ["vn", "private", "test"],
         "onlyIPType": "ipv4"
       }
     },
@@ -185,7 +185,7 @@
       "type": "clashRuleSet",
       "action": "output",
       "args": {
-        "wantedList": ["cn", "private", "test"],
+        "wantedList": ["vn", "private", "test"],
         "onlyIPType": "ipv6"
       }
     },
@@ -193,7 +193,7 @@
       "type": "surgeRuleSet",
       "action": "output",
       "args": {
-        "wantedList": ["cn", "private", "test"],
+        "wantedList": ["vn", "private", "test"],
         "onlyIPType": "ipv4"
       }
     }
