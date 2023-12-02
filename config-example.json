@@ -178,7 +178,7 @@
       "action": "output",
       "args": {
         "outputDir": "./publish",
-        "wantedList": ["cn", vn", "us", "private"],
+        "wantedList": ["cn", "vn", "us", "private"],
         "onlyIPType": "ipv6"
       }
     },
