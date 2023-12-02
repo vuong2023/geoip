@@ -127,7 +127,7 @@
       "args": {
         "outputName": "Country.mmdb",
         "overwriteList": [
-          "cn",
+          "vn",
           "private",
           "cloudflare",
           "cloudfront",
